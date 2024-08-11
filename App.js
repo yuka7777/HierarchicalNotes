@@ -33,9 +33,13 @@
 // });
 
 // export default App;
-import React from 'react';
-import AppNavigator from './navigation/AppNavigator';
 
-export default function App() {
-  return <AppNavigator />;
-}
+// 
+import React from 'react';
+import HomeScreen from './screens/HomeScreen';
+
+const App = () => {
+  return <HomeScreen />;
+};
+
+export default App;
