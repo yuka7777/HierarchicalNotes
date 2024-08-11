@@ -1,7 +1,4 @@
-/{
-/  "name": "MyNotesApp",
-/  "displayName": "MyNotesApp"
-/}
+
 {
   "name": "HierarchicalNotesApp",
   "displayName": "Hierarchical Notes"
