@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "lib": ["es6"],
+    "jsx": "react-native",
+    "strict": true
+  },
+  "exclude": ["node_modules", "babel.config.js", "metro.config.js"]
+}
