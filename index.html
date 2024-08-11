@@ -1,108 +1,13 @@
-<!doctype html>
-<html lang="ja"><!--言語設定Japaneseのja-->
-    <head>
-        <meta charset="UTF-8"><!--文字コード-->
-        <title>猫の日常</title><!--検索エンジンで表示されるページタイトル-->
-        <meta name="description" content="猫の好きなもの、日々の生活をご紹介"><!--検索エンジンでページタイトルとともに表示される部分-->
-        <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min/css"><!--ウェブ上のリセットCSS-->
-        <link rel="stylesheet" href="Untitled-1.css">    
-    </head>
-
-    <header><!--ヘッダー。多くの場合ロゴ画像やページタイトル、ナビゲーションメニューなどを含む-->
-        <h1>子猫預り所</h1>
-        <p class="gray">このウェブサイトは猫の世話係の申し込みフォームです。</p><!--ヘッダーは基本水色だがクラスgrayのところだけ灰色--><!--id="gray"でも可-->
-        <nav><!--ナビゲーションメニューの表示-->
-            <ul><!--リストの表示-->
-                <li><a href="#">料金</a></li>
-                <li><a href="#">応募</a></li>
-            </ul>
-        </nav>
-
-    </header>
-
-    <body1><!--本文-->
-        <h1>猫の一日</h1><!--見出し。h1-h6まであり、数字が大きいほどテキストサイズが大きい-->
-        <p>ひたすら寝ています。</p><!--Parafraphの段落-->
-        <br>起こさないといけません。</br><!--改行-->
-        <br>起こしてもなかなか起きません。</br>
-    </body1>
-
-    <body2><!--グループ分け-->
-        <h4>世話係募集</h4>
-    </body2>
-
-    <ol><!--番号リストの表示-->
-        <li>寝かしつける</li>
-        <li>起こす</li>
-    </ol>
-
-    <table border="1"><!--表の表示。border="1"は仕切りの線-->
-        <tr>
-            <th colspan="2">猫当番</th><!--横セルの結合-->
-        </tr>
-        <tr>
-            <th>プラン名</th>
-            <th>料金</th>
-        </tr>
-        <tr>
-            <td>早朝料金</td>
-            <td>月額2,900円</td>
-        </tr>
-        <tr>
-            <td>深夜料金</td>
-            <td>月額3,900円</td>
-        </tr>
-        <tr>
-            <td rowspan="2">一日料金</td><!--縦セルの結合-->
-            <td>7,900円</td>
-        </tr>
-        <tr>
-            <td>休憩８時間</td>
-        </tr>
-    </table>
-
-    <form action="example.php" method="post" name="contact-form"><!--入力フォームの作成-->
-        名前：<input type="text" placeholder="苗字 名前"><!--書式チェックと入力欄へのテキスト表示-->
-        メールアドレス：<input type="email" placeholder="nekoneko@gooogle.com">
-        性別：<input type="radio" name="gender" value="男">男<!--ラジオボタン（一つ選択）-->
-        <input type="radio" name="gender" value="女" checked>女<!--デフォルトの選択-->
-        <input type="radio" name="gender" value="その他">その他
-        血液型：<select name="bloodtyoe"><!--セレクトボックス-->
-            <option value="A">A</option>
-            <option value="B">B</option>
-            <option value="AB">AB</option>
-            <option value="O">O</option>
-            <option value="不明">不明</option>
-        </select>
-        好きな色：<input type="checkbox" name="color" value="赤" checked><!--チェックボックス（複数選択）-->
-        <input type="checkbox" name="color" value="青" checked>
-        <input type="checkbox" name="color" value="黄色" checked>
-        <input type="checkbox" name="color" value="緑" checked>
-        <input type="submit" value="送信する"><!--送信ボタン-->
-        <br>備考欄：<textarea name="message" placeholder="メッセージを入力"></textarea></br><!--複数行にわたるテキスト入力-->
-        <input type="checkbox" name="注意事項を確認しました" id="consent"><!--タグの利用（フォームのパーツとラベルが関連付け
-            され、そのテキストも含んだ選択項目全体がクリック可能-->
-        <label for="consent">注意事項を確認しました</label>
-    </form>
-
-    <div class="container"><!--親要素-->
-        <div class ="item">Item 1</div><!--子要素-->
-        <div class ="item">Item 2</div>
-        <div class ="item">Item 3</div>
-        <div class ="item">Item 4</div>
-        <div class ="item">Item 5</div>
-        <div class ="item">Item 6</div>
-        <div class ="item">Item 7</div>
-        <div class ="item">Item 8</div>
-        <div class ="item">Item 9</div>
-        <div class ="item">Item 10</div>
-        <div class ="item">Item 11</div>
-        <div class ="item">Item 12</div>
-    </div>
-    
-    <a href="http://google.co.jp"><!--リンクへの飛び方。herfは属性　下のsrcも属性-->
-        <img src="sleep_animal_cat.png" alt="寝ている猫"><!--画像の表示-->
-    </a>
-
-    
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Hello, Web App!</h1>
+    <script src="app.js"></script>
+</body>
 </html>
