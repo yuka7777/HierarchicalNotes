@@ -7,7 +7,7 @@ app.use(express.static('public'));
 
 // ルートへのリクエストに対するレスポンス
 app.get('/', (req, res) => {
-  res.sendFile(__dirname + '/public/home.html');
+  res.sendFile(__dirname + '/public/index.html');
 });
 
 app.listen(port, () => {
